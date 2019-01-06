@@ -8,6 +8,8 @@
 }
 .tab {
   margin-right: 1rem;
+  padding: 1rem;
+  border-radius: 3px;
 }
 .tab:hover {
   color: green;
@@ -28,4 +30,8 @@
 }
 h1 {
   margin-top: 0;
+}
+.tab.active{
+  background-color: yellowgreen;
+  color: white;
 }
