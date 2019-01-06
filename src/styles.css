@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.tabList {
+  margin: 1rem 0;
+  display: flex;
+}
+.tab {
+  margin-right: 1rem;
+}
+.tab:hover {
+  color: green;
+  cursor: pointer;
+}
+.tab.disabled {
+  color: gray;
+  cursor: not-allowed;
+}
+.tabPanel {
+  /* box-sizing: border-box; */
+  height: 10rem;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: #efefef;
+  padding: 2rem;
+  text-align: left;
+}
+h1 {
+  margin-top: 0;
+}
